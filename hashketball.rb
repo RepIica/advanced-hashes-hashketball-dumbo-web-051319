@@ -202,7 +202,8 @@ def big_shoe_rebounds
       end
    end
    rebound
-   def most_points_scored
+
+def most_points_scored
   pName=nil
   pScore=0
   game_hash.each do |team, teamDetails|
